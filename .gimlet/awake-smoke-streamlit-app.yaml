@@ -24,6 +24,5 @@ values:
       password: admin.123
       user: test-user
     tlsEnabled: true
-  replicas: 3
   resources:
     ignoreLimits: true
