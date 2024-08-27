@@ -6,9 +6,6 @@ chart:
   name: onechart
   version: 0.70.0
 values:
-  metrics: https://somewhere.over.the.rnbw
-  traces: https://somewhere.over.the.rnbw
-  issues: https://somewhere.over.the.rnbw
   containerPort: 8501
   gitRepository: gimlet-io/streamlit-app
   gitSha: '{{ .SHA }}'
@@ -26,8 +23,11 @@ values:
       kubernetes.io/ingress.class: nginx
     host: gimlet-io-streamlit-app-adysfnzc.gimlet.app
     tlsEnabled: true
+  issues: https://somewhere.over.the.rnbw
+  metrics: https://somewhere.over.the.rnbw
   resources:
     limits:
-      memory: 5Mi
+      memory: 500Mi
     requests:
       memory: 1Mi
+  traces: https://somewhere.over.the.rnbw
