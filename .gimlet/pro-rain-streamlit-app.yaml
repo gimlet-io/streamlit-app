@@ -27,7 +27,7 @@ values:
   metrics: https://somewhere.over.the.rnbw
   resources:
     limits:
-      memory: 5Mi
+      memory: 10Mi
     requests:
       memory: 1Mi
   traces: https://somewhere.over.the.rnbw
