@@ -25,6 +25,6 @@ values:
     tlsEnabled: true
   resources:
     limits:
-      memory: 5Mi
+      memory: 500Mi
     requests:
       memory: 1Mi
