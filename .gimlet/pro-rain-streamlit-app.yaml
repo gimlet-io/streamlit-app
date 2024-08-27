@@ -6,6 +6,9 @@ chart:
   name: onechart
   version: 0.70.0
 values:
+  metrics: https://somewhere.over.the.rnbw
+  traces: https://somewhere.over.the.rnbw
+  issues: https://somewhere.over.the.rnbw
   containerPort: 8501
   gitRepository: gimlet-io/streamlit-app
   gitSha: '{{ .SHA }}'
