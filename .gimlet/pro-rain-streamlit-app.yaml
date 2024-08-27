@@ -25,3 +25,7 @@ values:
     tlsEnabled: true
   resources:
     ignoreLimits: true
+    limits:
+      memory: 1Mi
+    requests:
+      memory: 1Mi
